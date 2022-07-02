@@ -69,10 +69,9 @@ body
 {
     display:flex;
     justify-content:center;
-    /* align-items:center; */
     position: absolute;
     border-radius: 50%;
-    transition: transform 500ms ease;
+    /* transition: transform 500ms ease; */
 }
 .hr:before
 {
