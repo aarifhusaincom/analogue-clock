@@ -1,6 +1,19 @@
+// addEventListener
+
 const deg = 6;
 
+        const fullScreen = document.querySelector('body')
 
+        fullScreen.addEventListener("click", function() {
+            var
+                  el = document.documentElement
+                , rfs =
+                       el.requestFullScreen
+                    || el.webkitRequestFullScreen
+                    || el.mozRequestFullScreen
+            ;
+            rfs.call(el);
+        });
 
         const hr=document.querySelector('#hr');
         const mn=document.querySelector('#mn');
@@ -17,7 +30,6 @@ const deg = 6;
             hr.style.transform =`rotateZ(${(hh)+(mm/12)}deg)`;
             mn.style.transform =`rotateZ(${mm}deg)`; 
             sc.style.transform =`rotateZ(${ss}deg)`; 
-    
             
         })
         
