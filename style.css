@@ -71,7 +71,7 @@ body
     justify-content:center;
     position: absolute;
     border-radius: 50%;
-    /* transition: transform 1000ms linear; */
+    transition: transform 500ms ease;
 }
 .hr:before
 {
