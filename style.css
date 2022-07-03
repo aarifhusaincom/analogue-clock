@@ -103,3 +103,14 @@ body
    z-index:12;
    border-radius: 6px 6px 0 0;
   }
+
+.linkClass{
+    position: absolute;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    
+}
