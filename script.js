@@ -31,7 +31,9 @@ const deg = 6;
             mn.style.transform =`rotateZ(${mm}deg)`; 
             sc.style.transform =`rotateZ(${ss}deg)`; 
             
+             
         })
         
-        
-        
+        let day1 = new Date();
+        let minute = day1.getMinutes();
+        console.log(minute); 
