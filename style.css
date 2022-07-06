@@ -119,12 +119,13 @@
     margin-right: 10px;
     margin-bottom: 10px;
     min-width: 30px;
-    max-width: fit-content;
+    /* max-width: fit-content; */
     height: 30px;
     background-color: black;
     border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 4px;
+    max-width: -moz-fit-content;
 }
 
 .linkClass a{
